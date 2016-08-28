@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!-- angular app is defined here -->
+<html ng-app="myApp">
+
+<head>
+
+  <link rel="stylesheet" href="resources/css/frameworks/bootstrap.min.css" />
+
+  <script src="resources/js/frameworks/angular.min.js"></script>
+  <script src="resources/js/frameworks/angular-route.js"></script>
+  <script src="resources/app.js"></script>
+  
+  <script src="pages/dashboard/dashboardController.js"></script>
+  <script src="pages/contact/contactController.js"></script>
+  <script src="pages/about/aboutController.js"></script>
+</head>
+
+<body ng-controller="dashboardController">
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#/">MyAngularApp</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/"><i class="fa fa-home"></i> Dashboard</a></li>
+        <li><a href="#about"><i class="fa fa-shield"></i> About Me</a></li>
+        <li><a href="#contact"><i class="fa fa-comment"></i> Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="main">
+  
+    <div ng-view></div>
+    
+  </div>
+  
+  <footer class="text-center">
+    </footer>
+  
+</body>
+
+</html>
