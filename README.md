@@ -5,7 +5,7 @@ This is very basic angularJS example using angular-route. This is for learning p
 Use server to deploy. I use tomcat.
 Deploy angular-example in webapp folder. 
 
-Start server by command : 
+Start server by navigating to tomcat/bin and type command : 
 
 catalina.bat run
 
