@@ -16,3 +16,7 @@ http://localhost:9090/angular-example
 you should be up and running by now.
 
 If not, let me know. If yes, happy learning!
+
+# Live demo
+
+http://sandeep-instinct.github.io/angular-example/#/
