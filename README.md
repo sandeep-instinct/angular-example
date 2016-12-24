@@ -19,4 +19,4 @@ If not, let me know. If yes, happy learning!
 
 # Live demo
 
-http://sandeep-instinct.github.io/angular-example/#/
+http://sandeep-pareek.github.io/angular-example/#/
